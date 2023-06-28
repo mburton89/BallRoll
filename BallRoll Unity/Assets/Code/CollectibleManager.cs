@@ -25,7 +25,7 @@ public class CollectibleManager : MonoBehaviour
         coinCount.SetText(_collectedCoinsInLevel + "/" + _totalCoinsInLevel);
     }
 
-    public void IncrementCollectedCoinCount()
+    public void HandleCoinCollected()
     {
         _collectedCoinsInLevel++;
         DisplayCoinCount();
